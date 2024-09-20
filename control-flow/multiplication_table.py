@@ -1,0 +1,5 @@
+num = int(input("Enter a number to see its multiplication table : "))
+table = [1,2,3,4,5,6,7,8,9,10]
+for number in table:
+   result = number * num
+   print (num , "*" , number , "=" , result)
